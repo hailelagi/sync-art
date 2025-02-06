@@ -70,7 +70,7 @@ mod tests {
 
             let frame = thread::spawn(move || {
                 spin.lock();
-        
+
                 unsafe { (*spin.data.get()).push(i) };
                 spin.unlock();
             });
