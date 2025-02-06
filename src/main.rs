@@ -1,4 +1,3 @@
-
 pub mod spin;
 
 fn main() {
